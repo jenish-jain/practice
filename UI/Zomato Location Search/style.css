@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heading{
+    font-family: 'Raleway', sans-serif;
+    font-size:3rem;
+    margin:2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.card{
+    font-family: 'Raleway', sans-serif;
+    font-size:1rem;
+    width:50vw;
+    margin:1rem;
+}
