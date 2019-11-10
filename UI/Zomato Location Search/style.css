@@ -1,4 +1,5 @@
 body{
+    background-color:#3c3d47 !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,11 +13,110 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    }
-
+    color:#f66767;
+}
+#result-count{
+    font-size:2rem;
+    color:#f66767;
+}
 .card{
     font-family: 'Raleway', sans-serif;
-    font-size:1rem;
+    font-size:20px;
+    font-weight: bolder;
+    color:#3c3d47;
     width:50vw;
     margin:1rem;
+    line-height: 15px;    
+}
+
+.city{
+    background-color:#f66767 !important;
+    box-shadow: 0px 0px 15px #f9d5bb;
+    border-radius:10px !important;
+}
+
+.landmark{
+    background-color:#40bfc1 !important;
+    box-shadow: 0px 0px 15px #93fdff;
+    border-radius:10px !important;
+}
+
+.metro{
+    background-color:#a8ff3e !important;
+    box-shadow: 0px 0px 15px #b9fa69;
+    border-radius:10px !important;
+}
+
+.subzone{
+    background-color:#f9ff21 !important;
+    box-shadow: 0px 0px 15px #f2f681;
+    border-radius:10px !important;
+}
+
+.zomato_place{
+    background-color:#ff1f5a !important;
+    box-shadow: 0px 0px 15px #ff1f5a;
+    border-radius:10px !important;
+}
+
+.group{
+    background-color:#9852f9 !important;
+    box-shadow: 0px 0px 15px #9852f9;
+    border-radius:10px !important;
+}   
+
+.zone{
+    background-color:#ff78ae !important;
+    box-shadow: 0px 0px 15px #ff78ae;
+    border-radius:10px !important;
+}
+
+.card-header{
+    font-family:'McLaren', cursive;
+    font-size:30px;
+    color:#3c3d47;
+    margin:10px;
+}
+input{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 2rem !important;
+}
+
+#search{
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 2rem !important;
+    background-color: #f66767;
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+    .heading{
+        font-size:2rem;
+        margin:1rem;
+    }
+    #result-count{
+        font-size:1rem;
+    }
+    .card{
+        font-size:15px; 
+        width:80vw;  
+        line-height: 5px;
+    }
+    .card-header{
+        font-size:15px;
+    }
+    input{
+        font-size: 1rem !important;
+    }
+    #search{
+        font-size: 1rem !important;
+    }
+  }
+
+@media only screen and (max-width:450px){
+     .heading{
+        font-size:22px;;
+        margin:1rem;
+    }
 }
